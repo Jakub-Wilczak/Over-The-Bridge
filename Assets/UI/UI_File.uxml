@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/stylesheet.uss?fileID=7433441132597879392&amp;guid=9a959d6d2a2849b45add644e32085c6f&amp;type=3#stylesheet" />
+    <ui:VisualElement style="height: 100%; width: 100%; flex-grow: 1; flex-wrap: nowrap; flex-direction: column-reverse;">
+        <ui:IMGUIContainer />
+        <ui:VisualElement name="Container" style="width: 100%; height: 100%; align-items: flex-end; justify-content: flex-start;">
+            <ui:GroupBox tabindex="0" name="Buttons" usage-hints="None" style="align-items: center; justify-content: center; width: 180px; height: 160px; padding-right: 0; -unity-font: url(&apos;project://database/Assets/UI/Fonts/expressway%20rg.otf?fileID=12800000&amp;guid=304e9691cc3d314438e30a1ace5fbcfd&amp;type=3#expressway rg&apos;); -unity-font-style: bold; opacity: 1; display: flex; visibility: visible; overflow: visible; -unity-text-align: upper-left; letter-spacing: 0; position: relative; flex-basis: auto; flex-direction: row; flex-wrap: wrap; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: -10px; padding-top: 0; padding-bottom: 0; transform-origin: center; scale: 1 1; left: auto; background-color: rgb(180, 111, 81); flex-shrink: 0; flex-grow: 0;">
+                <ui:Button text="unit1" display-tooltip-when-elided="true" name="but1" class="button" />
+                <ui:Button text="unit2" display-tooltip-when-elided="true" name="but2" class="button" />
+                <ui:Button text="tower" display-tooltip-when-elided="true" name="but3" class="button" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="but4" class="button" style="display: none;" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="but5" class="button" style="position: relative; display: none;" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="but6" class="button" style="display: none;" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="but7" class="button" style="display: none;" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="but8" class="button" style="display: none;" />
+                <ui:Button text="Button" display-tooltip-when-elided="true" name="but9" class="button" style="display: none;" />
+            </ui:GroupBox>
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="Money" style="height: -51px; width: 96px; -unity-text-align: lower-left; white-space: nowrap; flex-direction: column; align-items: auto; left: -177px; top: -156px; background-color: rgb(180, 111, 81);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

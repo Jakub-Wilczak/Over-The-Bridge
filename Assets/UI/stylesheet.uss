@@ -1,0 +1,65 @@
+.button {
+    -unity-font: url('project://database/Assets/UI/Fonts/expressway%20rg.otf?fileID=12800000&guid=304e9691cc3d314438e30a1ace5fbcfd&type=3#expressway rg');
+    width: 50px;
+    height: 50px;
+    flex-direction: column;
+    -unity-font-style: bold;
+    background-color: rgb(65, 65, 60);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgb(135, 135, 135);
+    border-right-color: rgb(135, 135, 135);
+    border-top-color: rgb(135, 135, 135);
+    border-bottom-color: rgb(135, 135, 135);
+    cursor: initial;
+    transition-property: all, ignored;
+    transition-duration: 0s, 0s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+}
+
+.button:hover {
+    -unity-font: url('project://database/Assets/UI/Fonts/expressway%20rg.otf?fileID=12800000&guid=304e9691cc3d314438e30a1ace5fbcfd&type=3#expressway rg');
+    width: 29%;
+    height: 30.5%;
+    flex-direction: column;
+    -unity-font-style: bold;
+    background-color: rgb(75, 75, 67);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgb(135, 135, 135);
+    border-right-color: rgb(135, 135, 135);
+    border-top-color: rgb(135, 135, 135);
+    border-bottom-color: rgb(135, 135, 135);
+    cursor: initial;
+    transition-property: all, ignored;
+    transition-duration: 0s, 0s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+}
+
+.button:active {
+    -unity-font: url('project://database/Assets/UI/Fonts/expressway%20rg.otf?fileID=12800000&guid=304e9691cc3d314438e30a1ace5fbcfd&type=3#expressway rg');
+    width: 29%;
+    height: 30.5%;
+    flex-direction: column;
+    -unity-font-style: bold;
+    background-color: rgb(233, 233, 188);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgb(135, 135, 135);
+    border-right-color: rgb(135, 135, 135);
+    border-top-color: rgb(135, 135, 135);
+    border-bottom-color: rgb(135, 135, 135);
+    cursor: initial;
+    transition-property: all, ignored;
+    transition-duration: 0s, 0s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+}
