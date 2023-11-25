@@ -10,7 +10,6 @@ public class Spawner : MonoBehaviour
     private float _time;
     private float _interpolationPeriod = 4.0f;
     private int _tier =0;
-    [SerializeField] private Transform Parent;
     private int _spawnedID;
 
     void Start()
@@ -69,13 +68,13 @@ public class Spawner : MonoBehaviour
             _spawnedID++;
             if (_tier == 0)
             { _prefabs[0, 0].GetComponent<Movement>().spawnedID = _spawnedID; Instantiate(_prefabs[0, 0], new Vector3(transform.position.x, transform.position.y, transform.position.z),
-            Quaternion.identity, Parent);
+            Quaternion.identity);
     }else if (_tier == 1)
-            Instantiate(_prefabs[1,0],new Vector3(transform.position.x,transform.position.y,transform.position.z),Quaternion.identity,Parent);
+            Instantiate(_prefabs[1,0],new Vector3(transform.position.x,transform.position.y,transform.position.z),Quaternion.identity);
         else if (_tier == 2)
-            Instantiate(_prefabs[2,0],new Vector3(transform.position.x,transform.position.y,transform.position.z),Quaternion.identity,Parent);
+            Instantiate(_prefabs[2,0],new Vector3(transform.position.x,transform.position.y,transform.position.z),Quaternion.identity);
         else if (_tier == 3)
-            Instantiate(_prefabs[3,0],new Vector3(transform.position.x,transform.position.y,transform.position.z),Quaternion.identity,Parent);
+            Instantiate(_prefabs[3,0],new Vector3(transform.position.x,transform.position.y,transform.position.z),Quaternion.identity);
         
         }
     }
@@ -87,20 +86,16 @@ public class Spawner : MonoBehaviour
             _spawnedID++;
             if (_tier == 0)
                 Instantiate(_prefabs[0, 1],
-                    new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity,
-                    Parent);
+                    new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
             else if (_tier == 1)
                 Instantiate(_prefabs[1, 1],
-                    new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity,
-                    Parent);
+                    new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
             else if (_tier == 2)
                 Instantiate(_prefabs[2, 1],
-                    new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity,
-                    Parent);
+                    new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
             else if (_tier == 3)
                 Instantiate(_prefabs[3, 1],
-                    new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity,
-                    Parent);
+                    new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
 
         }
     }
@@ -111,20 +106,16 @@ public class Spawner : MonoBehaviour
             _spawnedID++;
             if (_tier == 0)
                 Instantiate(_prefabs[0, 2],
-                    new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity,
-                    Parent);
+                    new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
             else if (_tier == 1)
                 Instantiate(_prefabs[1, 2],
-                    new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity,
-                    Parent);
+                    new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
             else if (_tier == 2)
                 Instantiate(_prefabs[2, 2],
-                    new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity,
-                    Parent);
+                    new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
             else if (_tier == 3)
                 Instantiate(_prefabs[3, 2],
-                    new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity,
-                    Parent);
+                    new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
 
         }
     }
