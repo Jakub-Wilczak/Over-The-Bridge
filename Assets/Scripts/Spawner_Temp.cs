@@ -10,6 +10,8 @@ public class Spawner_Temp : MonoBehaviour
     private float _time;
     private float _interpolationPeriod = 4.0f;
     private float velocity = 1.0f;
+    private int tier = 0;
+    private int spawned_ID = 0;
     
     
     
@@ -18,7 +20,8 @@ public class Spawner_Temp : MonoBehaviour
     void Start()
     {
         setPrefabs();
-        Instantiate(_prefabs[0, 0],new Vector3(transform.position.x,0,transform.position.z),Quaternion.identity);
+        
+        spawnUnit0();
     }
 
     // Update is called once per frame
@@ -28,7 +31,7 @@ public class Spawner_Temp : MonoBehaviour
         _time += Time.deltaTime;
         if (_time >= _interpolationPeriod)
         {
-            Instantiate(_prefabs[0, 0],new Vector3(transform.position.x,0,transform.position.z),Quaternion.identity);
+            spawnUnit0();
             _time = 0.0f;
         }
         
@@ -37,7 +40,8 @@ public class Spawner_Temp : MonoBehaviour
     void setPrefabs()
     {
         _prefabs = new GameObject[4, 4];
-        char side = CompareTag("Ally")? 'A':'B';
+        char side = CompareTag("Base_A")? 'A':'B';
+        
 
         _prefabs[0, 0] = (GameObject)Resources.Load("Prefabs/Units/Tier0_" + side + "_0", typeof(GameObject));
         _prefabs[0, 1] = (GameObject)Resources.Load("Prefabs/Units/Tier0_" + side + "_1", typeof(GameObject));
@@ -50,10 +54,38 @@ public class Spawner_Temp : MonoBehaviour
 
         _prefabs[3, 0] = (GameObject)Resources.Load("Prefabs/Units/Tier0_" + side + "_0", typeof(GameObject));
         _prefabs[3, 1] = (GameObject)Resources.Load("Prefabs/Units/Tier0_" + side + "_1", typeof(GameObject));
-
-        
-
     }
+
+
+    void spawnUnit0()
+    {
+        _prefabs[tier, 0].GetComponent<Movement>().setSpawnID(spawned_ID);
+        Instantiate(_prefabs[tier, 0],new Vector3(transform.position.x,_prefabs[0, 0].GetComponent<MeshRenderer>().bounds.size.y/2,transform.position.z),Quaternion.identity);
+        spawned_ID++;
+    }
+    
+    void spawnUnit1()
+    {
+        _prefabs[tier, 1].GetComponent<Movement>().setSpawnID(spawned_ID);
+        Instantiate(_prefabs[tier, 1],new Vector3(transform.position.x,_prefabs[0, 0].GetComponent<MeshRenderer>().bounds.size.y/2,transform.position.z),Quaternion.identity);
+        spawned_ID++;
+    }
+    
+    void spawnUnit2()
+    {
+        _prefabs[tier, 2].GetComponent<Movement>().setSpawnID(spawned_ID);
+        Instantiate(_prefabs[tier, 2],new Vector3(transform.position.x,_prefabs[0, 0].GetComponent<MeshRenderer>().bounds.size.y/2,transform.position.z),Quaternion.identity);
+        spawned_ID++;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 

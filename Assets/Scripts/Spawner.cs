@@ -67,7 +67,7 @@ public class Spawner : MonoBehaviour
         {
             _spawnedID++;
             if (_tier == 0)
-            { _prefabs[0, 0].GetComponent<Movement>().spawnedID = _spawnedID; Instantiate(_prefabs[0, 0], new Vector3(transform.position.x, transform.position.y, transform.position.z),
+            { _prefabs[0, 0].GetComponent<Movement>().setSpawnID(_spawnedID); Instantiate(_prefabs[0, 0], new Vector3(transform.position.x, transform.position.y, transform.position.z),
             Quaternion.identity);
     }else if (_tier == 1)
             Instantiate(_prefabs[1,0],new Vector3(transform.position.x,transform.position.y,transform.position.z),Quaternion.identity);
