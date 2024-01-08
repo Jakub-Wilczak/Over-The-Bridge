@@ -1,31 +1,45 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.Serialization;
+
+[System.Serializable]
+public class BoolEvent : UnityEvent<bool>
+{
+}
 
 public class Movement : MonoBehaviour
 {
     public int speed;
     private Rigidbody _rb;
     public bool isMoving;
+    public bool isEventMoving;
     public int spawnedID = 0;
     public GameObject target;
+    
+    public BoolEvent m_OnMove;
+    public BoolEvent m_OnWalk;
+    public UnityEvent m_OnStoppedMoving;
 
     void Start()
     {
         _rb = GetComponent<Rigidbody>();
         if (TryGetComponent<Health>(out Health healthComponent)) ;
+        
+        if (m_OnMove == null)
+            m_OnMove = new BoolEvent();
+        isEventMoving = isMoving;
+
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         if (target != null)
-            if (Vector3.Distance(transform.position, target.transform.position) > GetComponent<MeshRenderer>().bounds.size.x*1.5 )
+            if (Vector3.Distance(transform.position, target.transform.position) > GetComponent<BoxCollider>().bounds.size.x*1.5 )
                 target = null;
-            else
-            {
-                Debug.Log(Vector3.Distance(transform.position, target.transform.position));
-            }
-        
+
         if (target == null)
             isMoving = true;
 
@@ -146,6 +160,14 @@ public class Movement : MonoBehaviour
             }
         }
 
+
+        m_OnMove.Invoke(isMoving);
+        
+        
+        
+        
+        
+            
 
     }
 

@@ -62,7 +62,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3209270008358135466, guid: 697619ee226b0a24b878a23b92589151, type: 3}
       propertyPath: m_Name
-      value: SentryRobot Variant
+      value: Turret
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -71,5 +71,34 @@ PrefabInstance:
     - {fileID: 3371010245953670765, guid: 697619ee226b0a24b878a23b92589151, type: 3}
     - {fileID: 3433376178374864053, guid: 697619ee226b0a24b878a23b92589151, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3209270008358135466, guid: 697619ee226b0a24b878a23b92589151, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1323511921464637579}
   m_SourcePrefab: {fileID: 100100000, guid: 697619ee226b0a24b878a23b92589151, type: 3}
+--- !u!1 &4998546549360321598 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3209270008358135466, guid: 697619ee226b0a24b878a23b92589151, type: 3}
+  m_PrefabInstance: {fileID: 7626838873118605972}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &-1323511921464637579
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4998546549360321598}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 24.4
+  m_Center: {x: 0, y: 0, z: 0}

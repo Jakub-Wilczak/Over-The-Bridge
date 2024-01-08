@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class Health : MonoBehaviour
@@ -10,6 +12,8 @@ public class Health : MonoBehaviour
     public float maxhealth;
     public bool isPlayer;
     
+    public UnityEvent Is_Dead;
+
     public float CurrentHealth
     {
         set { currenthealth= value; }
@@ -35,6 +39,8 @@ public class Health : MonoBehaviour
 
     void Start()
     {
+        if (Is_Dead == null)
+            Is_Dead = new UnityEvent();
         
     }
 
@@ -44,7 +50,13 @@ public class Health : MonoBehaviour
         slider.value = currenthealth/maxhealth;
         if (currenthealth <= 0)
         {
-            Destroy(gameObject);
+            Is_Dead.Invoke();
+            Invoke("DestroyItself",1);
         }
+    }
+
+    private void DestroyItself()
+    {
+        Destroy(gameObject);
     }
 }

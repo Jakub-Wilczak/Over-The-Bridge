@@ -8,7 +8,7 @@ public class Tower : MonoBehaviour
     private ArrayList target = new ArrayList();
     private float _time = 0.0f;
     private float interpolationPeriod = 1.0f;
-    private int dmg = 2;
+    private int dmg = 4;
     void Start()
     {
         
@@ -35,7 +35,7 @@ public class Tower : MonoBehaviour
                  {
                      healthCompoment.TakeDamage(dmg);
                  }
-             //Debug.Log(target.Count);
+             Debug.Log(target.Count);
         }
     }
 
