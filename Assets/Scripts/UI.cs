@@ -30,11 +30,12 @@ public class UI : MonoBehaviour
         // Button but9 = root.Q<Button>("but9");
 
         
-         but1.clicked += () => Spawner.GetComponent<Spawner>().spawn_A(GetComponent<Economy>().spendMoney(10));
-         but2.clicked += () =>  Spawner.GetComponent<Spawner>().spawn_B(GetComponent<Economy>().spendMoney(20)); 
-        
+         but1.clicked += () => Spawner.GetComponent<Spawner_Temp>().spawnUnit0();
+         // but2.clicked += () =>  Spawner.GetComponent<Spawner>().spawn_B(GetComponent<Economy>().spendMoney(20)); 
+         but2.clicked += () =>  Spawner.GetComponent<Spawner_Temp>().spawnUnit1(); 
+
          
-           but3.clicked += () =>  Tower1.SetActive(GetComponent<Economy>().spendMoney(30));
+          // but3.clicked += () =>  Tower1.SetActive(GetComponent<Economy>().spendMoney(30));
         // but4.clicked += () =>  test.transform.Translate(0, +1, 0);
         // but5.clicked += () =>  Debug.Log("Wrong button bro");
         // but6.clicked += () =>  test.transform.Translate(0, -1, 0);
@@ -45,7 +46,7 @@ public class UI : MonoBehaviour
 
     public void Update()
     {
-        mon.text = GetComponent<Economy>().cash.ToString() + " $";
+        // mon.text = GetComponent<Economy>().cash.ToString() + " $";
 
     }
 }

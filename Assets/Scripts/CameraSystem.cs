@@ -10,13 +10,13 @@ public class CameraSystem : MonoBehaviour
     {
         Vector3 inputDir = new Vector3(0, 0, 0);
         
-        if(transform.position.x>=-20){
+        if(transform.position.x>=-24){
             if (Input.GetKey(KeyCode.A)) inputDir.x = -1f;
             if(Input.mousePosition.x <Screen.width*0.05) inputDir.x += -1f;
             
         }
         
-        if(transform.position.x<=20){
+        if(transform.position.x<=24){
             if (Input.GetKey(KeyCode.D)) inputDir.x = +1f;
             if(Input.mousePosition.x >Screen.width*0.95) inputDir.x += 1f;
         }
