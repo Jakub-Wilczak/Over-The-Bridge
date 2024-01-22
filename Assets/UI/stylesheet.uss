@@ -1,7 +1,7 @@
 .button {
     -unity-font: url('project://database/Assets/UI/Fonts/expressway%20rg.otf?fileID=12800000&guid=304e9691cc3d314438e30a1ace5fbcfd&type=3#expressway rg');
     width: 50px;
-    height: 50px;
+    height: 45px;
     flex-direction: column;
     -unity-font-style: bold;
     background-color: rgb(65, 65, 60);
@@ -22,8 +22,8 @@
 
 .button:hover {
     -unity-font: url('project://database/Assets/UI/Fonts/expressway%20rg.otf?fileID=12800000&guid=304e9691cc3d314438e30a1ace5fbcfd&type=3#expressway rg');
-    width: 29%;
-    height: 30.5%;
+    width: 45px;
+    height: 45px;
     flex-direction: column;
     -unity-font-style: bold;
     background-color: rgb(75, 75, 67);
@@ -44,8 +44,8 @@
 
 .button:active {
     -unity-font: url('project://database/Assets/UI/Fonts/expressway%20rg.otf?fileID=12800000&guid=304e9691cc3d314438e30a1ace5fbcfd&type=3#expressway rg');
-    width: 29%;
-    height: 30.5%;
+    width: 30px;
+    height: 30.5px;
     flex-direction: column;
     -unity-font-style: bold;
     background-color: rgb(233, 233, 188);

@@ -49,7 +49,6 @@ public class Attack_Meelie : MonoBehaviour
                 target = collision.gameObject;
                 isAttacking = true;
             }
-
             _time = 0f;
         }
         if (CompareTag("Enemy")) {
@@ -58,7 +57,6 @@ public class Attack_Meelie : MonoBehaviour
                 target = collision.gameObject;
                 isAttacking = true;
             }
-
             _time = 0f;
         }
     }

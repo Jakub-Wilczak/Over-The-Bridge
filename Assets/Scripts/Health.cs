@@ -11,6 +11,10 @@ public class Health : MonoBehaviour
     public float currenthealth;
     public float maxhealth;
     public bool isPlayer;
+    Animator anim;
+    private bool hasAnimator=false;
+    private GameObject unitprefab;
+    
     
     public UnityEvent Is_Dead;
 
@@ -42,6 +46,16 @@ public class Health : MonoBehaviour
         if (Is_Dead == null)
             Is_Dead = new UnityEvent();
         
+        unitprefab = transform.GetChild(0).gameObject;
+        if(unitprefab.TryGetComponent<Animator>(out Animator animator))
+        {
+            anim = animator;
+            hasAnimator = true;
+        }
+        ;
+
+        
+        
     }
 
     // Update is called once per frame
@@ -50,8 +64,12 @@ public class Health : MonoBehaviour
         slider.value = currenthealth/maxhealth;
         if (currenthealth <= 0)
         {
+            
+            if(hasAnimator)
+                anim.SetBool("isDead", true);
+            
             Is_Dead.Invoke();
-            Invoke("DestroyItself",1);
+            Invoke("DestroyItself",0.5f);
         }
     }
 

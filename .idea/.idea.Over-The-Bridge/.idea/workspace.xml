@@ -6,17 +6,517 @@
   <component name="ChangeListManager">
     <list default="true" id="ca769585-02ca-415d-a483-6a71d5da37de" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Over-The-Bridge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Over-The-Bridge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Sphere1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/Sphere1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/Dark_Brown_GUI_kit.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/Dark_Brown_GUI_kit.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/big.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/big/big_circle_background0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/big/big_circle_background0.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/big/big_circle_background1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/big/big_circle_background1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/big/big_dark_background0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/big/big_dark_background0.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/big/big_dark_background1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/big/big_dark_background1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/big/big_dark_circle_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/big/big_dark_circle_background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/mid.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/mid/middle_dark_background0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/mid/middle_dark_background0.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/mid/middle_dark_background1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/mid/middle_dark_background1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/mini.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/mini/mini_dark_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/mini/mini_dark_background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/mini/mini_dark_circle_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/mini/mini_dark_circle_background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/mini/mini_darkness_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/mini/mini_darkness_background.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/other.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/other/health_bar_background0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/other/health_bar_background0.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/other/health_bar_background1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/other/health_bar_background1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/other/health_bar_background2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/other/health_bar_background2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/other/line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/background/other/line.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/big.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/big/big_circle_bar0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/big/big_circle_bar0.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/big/big_circle_bar1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/big/big_circle_bar1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/big/big_dark_bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/big/big_dark_bar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/mid.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/mid/mid_dark_bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/mid/mid_dark_bar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/mid/mid_dark_barA-vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/mid/mid_dark_barA-vertical.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/mid/mid_dark_barA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/mid/mid_dark_barA.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/mini.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/mini/mini_dark_bar1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/mini/mini_dark_bar1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/mini/mini_dark_circle_bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/mini/mini_dark_circle_bar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/mini/mini_darkness_bar1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/mini/mini_darkness_bar1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/other.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/other/low_dark_bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/other/low_dark_bar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/other/low_darkness_bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/other/low_darkness_bar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/small.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/small/small_dark_bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/small/small_dark_bar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/small/small_darkness_bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/bar/small/small_darkness_bar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button/circle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button/circle/button_circle0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button/circle/button_circle0.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button/circle/button_circle1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button/circle/button_circle1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button/circle/button_circle2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button/circle/button_circle2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button/rect.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button/rect/button0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button/rect/button0.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button/rect/button1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button/rect/button1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button/rect/button2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button/rect/button2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button/square.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button/square/button_square0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button/square/button_square0.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button/square/button_square1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button/square/button_square1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button/square/button_square2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/button/square/button_square2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/big.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/big/big_circle_frame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/big/big_circle_frame.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/big/big_frame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/big/big_frame.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/mid.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/mid/mid_frame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/mid/mid_frame.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/mid/mid_frameA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/mid/mid_frameA.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/mini.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/mini/mini_circle_frame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/mini/mini_circle_frame.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/mini/mini_frame1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/mini/mini_frame1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/other.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/other/button_frame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/other/button_frame.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/other/button_square_frame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/other/button_square_frame.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/other/health_frame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/other/health_frame.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/other/low_frame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/other/low_frame.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/small.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/small/small_frame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/frame/small/small_frame.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/audio_mute-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/audio_mute-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/audio_on-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/audio_on-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/back-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/back-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/book-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/book-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/character-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/character-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/check-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/check-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/chest-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/chest-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/circular-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/circular-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/coins-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/coins-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/craft-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/craft-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/door-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/door-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/download-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/download-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/e-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/e-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/exclamation-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/exclamation-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/exit-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/exit-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/home-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/home-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/inf-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/inf-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/inventory-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/inventory-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/magic-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/magic-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/mail-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/mail-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/minus-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/minus-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/name-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/name-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/numbers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/numbers/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/numbers/1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/numbers/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/numbers/2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/numbers/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/numbers/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/numbers/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/numbers/4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/numbers/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/numbers/5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/numbers/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/numbers/6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/numbers/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/numbers/7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/numbers/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/numbers/8.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/numbers/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/numbers/9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/password-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/password-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/plus-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/plus-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/pointer_one-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/pointer_one-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/pointer_two-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/pointer_two-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/potion-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/potion-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/q-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/q-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/question-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/question-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/scroll-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/scroll-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/search-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/search-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/settings_one-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/settings_one-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/settings_two-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/settings_two-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/shild-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/shild-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/shopping-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/shopping-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/sword-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/sword-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/talk-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/talk-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/upload-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/full_simple/upload-.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/coin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/coin/coin-bronze.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/coin/coin-bronze.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/coin/coin-silver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/coin/coin-silver.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/craft.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/craft/green_сlover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/craft/green_сlover.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/craft/mushroom_yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/craft/mushroom_yellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/craft/tr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/craft/tr/green_сlover_tr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/craft/tr/green_сlover_tr.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/craft/tr/mushroom_yellow_tr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/craft/tr/mushroom_yellow_tr.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/craft/tr/wings_insect_tr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/craft/tr/wings_insect_tr.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/craft/wings_insect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/craft/wings_insect.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/potion.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/potion/potion_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/potion/potion_0.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/potion/potion_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/potion/potion_blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/potion/potion_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/potion/potion_red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/potion/potion_yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/other/potion/potion_yellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/audio_mute.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/audio_mute.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/audio_on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/audio_on.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/back.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/book.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/character.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/character.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/check.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/chest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/chest.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/circular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/circular.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/coins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/coins.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/craft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/craft.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/door.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/door.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/download.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/e.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/exclamation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/exclamation.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/exit.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/home.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/inf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/inf.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/inventory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/inventory.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/magic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/magic.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/mail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/mail.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/minus.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/name.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/name.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/password.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/password.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/plus.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/pointer_one.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/pointer_one.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/pointer_two.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/pointer_two.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/potion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/potion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/q.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/q.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/question.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/scroll.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/scroll.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/search.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/settings_one.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/settings_one.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/settings_two.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/settings_two.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/shild.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/shild.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/shopping.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/shopping.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/sword.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/talk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/talk.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/icon/simple/upload.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/ornament.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/ornament/corner_ornament.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/ornament/corner_ornament.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/dark.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/dark/dark_orb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/dark/dark_orb.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/dark/dark_wind.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/dark/dark_wind.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/fire.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/fire/fire_ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/fire/fire_ball.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/fire/fire_flame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/fire/fire_flame.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/fire/fire_tornado.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/fire/fire_tornado.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/holy.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/holy/holy_hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/holy/holy_hand.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/holy/holy_smal_cross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/holy/holy_smal_cross.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/ice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/ice/frost_bolt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/ice/frost_bolt.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/ice/frost_bolt_quad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/ice/frost_bolt_quad.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/ice/ice_gliphs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/ice/ice_gliphs.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/thunder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/thunder/thunder_bolts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/thunder/thunder_bolts.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/thunder/thunder_sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dark_Brown_GUI_kit/skill_icon/thunder/thunder_sword.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/Scene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/Scene/Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/Scene/Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/Scene/DemoSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/Scene/DemoSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Yellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/SentryRobot_SentryRobotAction_1.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/SentryRobot_SentryRobotAction_1.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Sphere1.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Sphere1.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Spider/SpiderOrange.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/Spider/SpiderOrange.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Spider/spider_attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/Spider/spider_attack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Spider/spider_move.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animations/Spider/spider_move.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Unit.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animations/Unit.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Base/Base.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Base/Base.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Base/wqdjyq72.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Base/wqdjyq72.bmp.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Units/SpiderOrange.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Units/SpiderOrange.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Units/Tier0_A_0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Units/Tier0_A_0.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Units/Tier0_A_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Units/Tier0_A_1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Units/Tier0_B_0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Units/Tier0_B_0.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Units/Tier0_B_1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Units/Tier0_B_1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Units/Tier0_B_1.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Units/Tier0_B_1.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Units/robotSphere.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Units/robotSphere.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/robotSphereAnmCont.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/robotSphereAnmCont.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/Sphere.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/Sphere.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_Idle_Loop_S.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_Idle_Loop_S.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_cloed_Roll_Loop.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_cloed_Roll_Loop.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_close.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_close.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_closed_StopRoll.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_closed_StopRoll.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_GoToRoll.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_GoToRoll.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_Idle_F1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_Idle_F1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_Walk_Loop.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_Walk_Loop.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/robotSphereAnmCont.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Animation/robotSphereAnmCont.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Materials/body_diff.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Materials/body_diff.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Materials/eye_matAi.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Materials/eye_matAi.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Materials/visor_matAi.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Materials/visor_matAi.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Texture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Texture/body_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/Texture/body_diff.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/robotSphere.fbm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/robotSphere.fbm/body_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/robotSphere.fbm/body_diff.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/robotSphere.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Models/robotSphere.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Prefab/robotSphere.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Prefab/robotSphere.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Scripts/Editor/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Scripts/Editor/Resources/Notifications.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Scripts/Editor/Resources/Notifications/Banners.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Scripts/Editor/Resources/Notifications/Banners/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Scripts/Editor/Resources/Notifications/Banners/test.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Scripts/Editor/RobotFreeAnimEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Scripts/Editor/RobotFreeAnimEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Scripts/RobotFreeAnim.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Assets/Scripts/RobotFreeAnim.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Demo/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Demo/Scenes/Robot Animations Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Demo/Scenes/Robot Animations Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Demo/Scenes/Robot Animations DemoSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RobotSphere/Demo/Scenes/Robot Animations DemoSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attack_Meelie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attack_Meelie.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawner_Temp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner_Temp.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/UI_File.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/UI_File.uxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/stylesheet.uss" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/stylesheet.uss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/fonts/Futura PT Heavy SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/fonts/Futura PT Heavy SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +526,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3b24cc7fa9794ed8ab04312c53e6dedd172c00/55/0f131134/Debug.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3b24cc7fa9794ed8ab04312c53e6dedd172c00/80/bd1067e3/Ping.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audioplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battery.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI-mainmenu/mainmenu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -138,6 +640,7 @@
       <workItem from="1704729605596" duration="1228000" />
       <workItem from="1705341069717" duration="2430000" />
       <workItem from="1705860500053" duration="1350000" />
+      <workItem from="1705925033525" duration="7706000" />
     </task>
     <servers />
   </component>

@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
+using Random = UnityEngine.Random;
+
 
 public class Spawner_Temp : MonoBehaviour
 {
@@ -21,7 +23,6 @@ public class Spawner_Temp : MonoBehaviour
     {
         setPrefabs();
         
-        spawnUnit0();
     }
 
     // Update is called once per frame
@@ -31,7 +32,18 @@ public class Spawner_Temp : MonoBehaviour
         _time += Time.deltaTime;
         if (_time >= _interpolationPeriod)
         {
-            spawnUnit0();
+            _interpolationPeriod = Random.Range(1.0f, 6.0f);
+            int range = Random.Range(0, 10);
+            if (transform.CompareTag("Base_B"))
+            {
+                if(range<6)
+                    spawnUnit0();
+                else
+                {
+                    spawnUnit1();
+                }
+            }
+            
             _time = 0.0f;
         }
         

@@ -76,9 +76,12 @@ public class Movement : MonoBehaviour
         
         if (CompareTag("Ally"))
         {
-            if (collision.gameObject.CompareTag("Base_A"))
+            if (collision.gameObject.CompareTag("Base_B"))
             {
-                //Physics.IgnoreCollision(collision.gameObject.GetComponent<Collider>(), GetComponent<Collider>());
+                isMoving = false;
+                anim.SetBool("isMoving", false);
+                anim.SetBool("hasTarget", true);
+                target = collision.gameObject;
             }
 
             // if (collision.gameObject.CompareTag("Ally") || collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Base_B"))
@@ -88,6 +91,7 @@ public class Movement : MonoBehaviour
                 {
                     isMoving = false;
                     anim.SetBool("isMoving", false);
+                    anim.SetBool("hasTarget", false);
                     target = collision.gameObject;
                 }
             }
@@ -95,6 +99,7 @@ public class Movement : MonoBehaviour
             {
                 isMoving = false;
                 anim.SetBool("isMoving", false);
+                anim.SetBool("hasTarget", true);
                 target = collision.gameObject;
             }
         }
@@ -102,9 +107,12 @@ public class Movement : MonoBehaviour
         if (CompareTag("Enemy"))
         {
 
-            if (collision.gameObject.CompareTag("Base_B"))
+            if (collision.gameObject.CompareTag("Base_A"))
             {
-                //Physics.IgnoreCollision(collision.gameObject.GetComponent<Collider>(), GetComponent<Collider>());
+                isMoving = false;
+                anim.SetBool("isMoving", false);
+                anim.SetBool("hasTarget", true);
+                target = collision.gameObject;
             }
 
             if (collision.gameObject.CompareTag("Enemy"))
@@ -113,6 +121,7 @@ public class Movement : MonoBehaviour
                 {
                     isMoving = false;
                     anim.SetBool("isMoving", false);
+                    anim.SetBool("hasTarget", false);
                     target = collision.gameObject;
                 }
             }
@@ -120,6 +129,7 @@ public class Movement : MonoBehaviour
             {
                 isMoving = false;
                 anim.SetBool("isMoving", false);
+                anim.SetBool("hasTarget", true);
                 target = collision.gameObject;
             }
         }
@@ -131,9 +141,12 @@ public class Movement : MonoBehaviour
 
         if (CompareTag("Ally"))
         {
-            if (collision.gameObject.CompareTag("Base_A"))
+            if (collision.gameObject.CompareTag("Base_B"))
             {
-                //Physics.IgnoreCollision(collision.gameObject.GetComponent<Collider>(), GetComponent<Collider>());
+                isMoving = false;
+                anim.SetBool("isMoving", false);
+                anim.SetBool("hasTarget", true);
+                target = collision.gameObject;
             }
 
             // if (collision.gameObject.CompareTag("Ally") || collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Base_B"))
@@ -143,6 +156,7 @@ public class Movement : MonoBehaviour
                 {
                     isMoving = false;
                     anim.SetBool("isMoving", false);
+                    anim.SetBool("hasTarget", false);
                     target = collision.gameObject;
                 }
             }
@@ -150,6 +164,8 @@ public class Movement : MonoBehaviour
             {
                 isMoving = false;
                 anim.SetBool("isMoving", false);
+                anim.SetBool("hasTarget", true);
+
                 target = collision.gameObject;
             }
         }
@@ -157,9 +173,13 @@ public class Movement : MonoBehaviour
         if (CompareTag("Enemy"))
         {
 
-            if (collision.gameObject.CompareTag("Base_B"))
+            if (collision.gameObject.CompareTag("Base_A"))
             {
-                //Physics.IgnoreCollision(collision.gameObject.GetComponent<Collider>(), GetComponent<Collider>());
+                isMoving = false;
+                anim.SetBool("isMoving", false);
+                anim.SetBool("hasTarget", true);
+
+                target = collision.gameObject;
             }
 
             if (collision.gameObject.CompareTag("Enemy"))
@@ -168,6 +188,8 @@ public class Movement : MonoBehaviour
                 {
                     isMoving = false;
                     anim.SetBool("isMoving", false);
+                    anim.SetBool("hasTarget", false);
+
                     target = collision.gameObject;
                 }
             }
@@ -175,6 +197,8 @@ public class Movement : MonoBehaviour
             {
                 isMoving = false;
                 anim.SetBool("isMoving", false);
+                anim.SetBool("hasTarget", true);
+
                 target = collision.gameObject;
             }
         }
