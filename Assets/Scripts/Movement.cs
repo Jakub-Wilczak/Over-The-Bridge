@@ -21,6 +21,11 @@ public class Movement : MonoBehaviour
     public BoolEvent m_OnWalk;
     public UnityEvent m_OnStoppedMoving;
 
+    private GameObject unitprefab;
+    Animator anim;
+    
+    
+    
     void Start()
     {
         _rb = GetComponent<Rigidbody>();
@@ -29,6 +34,9 @@ public class Movement : MonoBehaviour
         if (m_OnMove == null)
             m_OnMove = new BoolEvent();
         isEventMoving = isMoving;
+        
+        unitprefab = transform.GetChild(0).gameObject;
+        anim = unitprefab.GetComponent<Animator>();
 
         
     }
@@ -41,7 +49,10 @@ public class Movement : MonoBehaviour
                 target = null;
 
         if (target == null)
+        {
             isMoving = true;
+            anim.SetBool("isMoving", true);
+        }
 
 
         if (isMoving)
@@ -76,12 +87,14 @@ public class Movement : MonoBehaviour
                 if (spawnedID > collision.gameObject.GetComponent<Movement>().spawnedID)
                 {
                     isMoving = false;
+                    anim.SetBool("isMoving", false);
                     target = collision.gameObject;
                 }
             }
             else if (collision.gameObject.CompareTag("Enemy"))
             {
                 isMoving = false;
+                anim.SetBool("isMoving", false);
                 target = collision.gameObject;
             }
         }
@@ -99,12 +112,14 @@ public class Movement : MonoBehaviour
                 if (spawnedID > collision.gameObject.GetComponent<Movement>().spawnedID)
                 {
                     isMoving = false;
+                    anim.SetBool("isMoving", false);
                     target = collision.gameObject;
                 }
             }
             else if (collision.gameObject.CompareTag("Ally"))
             {
                 isMoving = false;
+                anim.SetBool("isMoving", false);
                 target = collision.gameObject;
             }
         }
@@ -127,12 +142,14 @@ public class Movement : MonoBehaviour
                 if (spawnedID > collision.gameObject.GetComponent<Movement>().spawnedID)
                 {
                     isMoving = false;
+                    anim.SetBool("isMoving", false);
                     target = collision.gameObject;
                 }
             }
             else if (collision.gameObject.CompareTag("Enemy"))
             {
                 isMoving = false;
+                anim.SetBool("isMoving", false);
                 target = collision.gameObject;
             }
         }
@@ -150,12 +167,14 @@ public class Movement : MonoBehaviour
                 if (spawnedID > collision.gameObject.GetComponent<Movement>().spawnedID)
                 {
                     isMoving = false;
+                    anim.SetBool("isMoving", false);
                     target = collision.gameObject;
                 }
             }
             else if (collision.gameObject.CompareTag("Ally"))
             {
                 isMoving = false;
+                anim.SetBool("isMoving", false);
                 target = collision.gameObject;
             }
         }

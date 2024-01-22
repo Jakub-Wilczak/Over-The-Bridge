@@ -60,21 +60,21 @@ public class Spawner_Temp : MonoBehaviour
     public void spawnUnit0()
     {
         _prefabs[tier, 0].GetComponent<Movement>().setSpawnID(spawned_ID);
-        Instantiate(_prefabs[tier, 0],new Vector3(transform.position.x,_prefabs[0, 0].GetComponent<BoxCollider>().bounds.size.y/2,transform.position.z),Quaternion.identity);
+        Instantiate(_prefabs[tier, 0],new Vector3(transform.position.x,_prefabs[tier, 0].GetComponent<BoxCollider>().bounds.size.y/2,transform.position.z),Quaternion.identity);
         spawned_ID++;
     }
     
     public void spawnUnit1()
     {
         _prefabs[tier, 1].GetComponent<Movement>().setSpawnID(spawned_ID);
-        Instantiate(_prefabs[tier, 1],new Vector3(transform.position.x,_prefabs[0, 0].GetComponent<BoxCollider>().bounds.size.y/2,transform.position.z),Quaternion.identity);
+        Instantiate(_prefabs[tier, 1],new Vector3(transform.position.x,_prefabs[tier, 0].GetComponent<BoxCollider>().bounds.size.y/2,transform.position.z),Quaternion.identity);
         spawned_ID++;
     }
     
     public void spawnUnit2()
     {
         _prefabs[tier, 2].GetComponent<Movement>().setSpawnID(spawned_ID);
-        Instantiate(_prefabs[tier, 2],new Vector3(transform.position.x,_prefabs[0, 0].GetComponent<BoxCollider>().bounds.size.y/2,transform.position.z),Quaternion.identity);
+        Instantiate(_prefabs[tier, 2],new Vector3(transform.position.x,_prefabs[tier, 0].GetComponent<BoxCollider>().bounds.size.y/2,transform.position.z),Quaternion.identity);
         spawned_ID++;
     }
     

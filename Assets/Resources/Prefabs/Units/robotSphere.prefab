@@ -2639,7 +2639,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528915638184230}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cdfe52ad0699f7842b1bd6f40aadd01e, type: 3}
   m_Name: 
@@ -2654,7 +2654,7 @@ Animator:
   m_GameObject: {fileID: 1528915638184230}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: bff429107601444d59c67940e6ad78c4, type: 3}
-  m_Controller: {fileID: 9100000, guid: b1f8a623f11d80c4b90ed0d3652219eb, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8df5b386369d54778a922298504d1aba, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
